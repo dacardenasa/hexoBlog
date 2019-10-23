@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E9EFF4;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.carousel-inner .item .carousel-text {
+  color: white; 
+  font-size: 15px; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 5px; 
+  padding: 5px 5px;
+}
+
+.container {
+  background-color: #F5F9FC;
+  border: 1px solid #BBC4CD; 
+  border-radius: 5px; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#posts .row {
+  margin-top: 10px;
+}
+
+.container .data-media {
+  margin: 20px 0;
+}
+
+.jumbotron {
+  background-color: #333; 
+  color: #fff;
+}
+
+.main-footer {
+  background-color: #333; 
+  color: #fff;
+}

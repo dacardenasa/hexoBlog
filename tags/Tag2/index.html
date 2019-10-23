@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Use  for dynamic title -->
+	<title>Desarrollo Web</title>
+	<!-- Twitter bootstrap (via cdn) -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">HOME</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#posts">Posts <span class="sr-only">(current)</span></a></li>
+        <li><a href="#suscribe">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+  
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+          <img src="/img/car-1.jpg" alt="carrusel1" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>Our passion is coding </h1>
+            <p class="hidden-xs carousel-text">Ea laboris officia mollit nisi laborum elit aliqua sint voluptate enim culpa deserunt commodo veniam.</p>
+          </div>
+      </div>
+      <div class="item">
+          <img src="/img/car-2.jpg" alt="carrusel2" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>Amazing Design</h1>
+            <p class="hidden-xs carousel-text">Ea laboris officia mollit nisi laborum elit aliqua sint voluptate enim culpa deserunt commodo veniam.</p>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button"data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button"data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+</header>
+	
+	<!-- Seccion Posts -->
+<div class='container' id="posts">
+
+  <div>
+    <div class="row">
+      <div class="text-center">
+        <h1>Posts Recientes</h1>
+      </div>
+      <!-- First Post -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="/img/html5.jpg" alt="multiplatform Design" class="img-responsive">
+          <div class="caption">
+            <h3>HTML5 Code Snippets</h3>
+            <p>Velit enim cupidatat ipsum incididunt eu dolor ut duis ea pariatur dolore. Commodo etfugiat velit ullamco laborum non. Nisi dolore ut qui dolore esse occaecat. Ex eu auteullamco do excepteur labore. Qui ipsum irure excepteur minim esse irure magna voluptatenulla consectetur in irure nisi. Pariatur minim dolor elit sunt.</p>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erataante.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- Second Post -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="/img/css3.png" alt="Intuitive Design" class="img-responsive">
+          <div class="caption">
+            <h3>CSS3 Code Snippets</h3>
+            <p>Velit enim cupidatat ipsum incididunt eu dolor ut duis ea pariatur dolore. Commodoetfugiat velit ullamco laborum non. Nisi dolore ut qui dolore esse occaecat. Ex euauteullamco do excepteur labore. Qui ipsum irure excepteur minim esse irure magnavoluptatenulla consectetur in irure nisi. Pariatur minim dolor elit sunt.</p>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuereerataante.<p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- Third Post -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="/img/javascript.png" alt="Landpage Design" class="img-responsive">
+          <div class="caption">
+            <h3>JavaScript Code Snippets</h3>
+            <p>Velit enim cupidatat ipsum incididunt eu dolor ut duis ea pariatur dolore. Commodoetfugiat velit ullamco laborum non. Nisi dolore ut qui dolore esse occaecat. Ex euauteullamco do excepteur labore. Qui ipsum irure excepteur minim esse irure magnavoluptatenulla consectetur in irure nisi. Pariatur minim dolor elit sunt.</p>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuereerataante.<p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- Fourth Post -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="/img/github.jpg" alt="Wood Design" class="img-responsive">
+          <div class="caption">
+            <h3>GitHub Code Snippets</h3>
+            <p>Velit enim cupidatat ipsum incididunt eu dolor ut duis ea pariatur dolore. Commodoetfugiat velit ullamco laborum non. Nisi dolore ut qui dolore esse occaecat. Ex euauteullamco do excepteur labore. Qui ipsum irure excepteur minim esse irure magnavoluptatenulla consectetur in irure nisi. Pariatur minim dolor elit sunt.</p>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erataante.<p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- Fifth Post -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="/img/ruby.png" alt="Video Games Design" class="img-responsive">
+          <div class="caption">
+            <h3>Ruby Code Snippets</h3>
+            <p>Velit enim cupidatat ipsum incididunt eu dolor ut duis ea pariatur dolore.Commodoetfugiat velit ullamco laborum non. Nisi dolore ut qui dolore esse occaecat. Exeuauteullamco do excepteur labore. Qui ipsum irure excepteur minim esse iruremagnavoluptatenulla consectetur in irure nisi. Pariatur minim dolor elit sunt.</p>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuereerataante.<p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- Six Post -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="/img/nodejs.jpg" alt="E-commerce" class="img-responsive">
+          <div class="caption">
+            <h3>Node.js Code Snippets</h3>
+            <p>Velit enim cupidatat ipsum incididunt eu dolor ut duis ea pariatur dolore.Commodoetfugiat velit ullamco laborum non. Nisi dolore ut qui dolore esse occaecat. Exeuauteullamco do excepteur labore. Qui ipsum irure excepteur minim esse iruremagnavoluptatenulla consectetur in irure nisi. Pariatur minim dolor elit sunt.</p>
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuereerataante.<p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- Seccion suscribase -->
+<div class="jumbotron" id="suscribe">
+  <div class="container-fluid">
+    
+    <div class="form-content">
+      <h1  class="text-center">Suscribe our blog!</h1>
+      <div class="form-group row">
+        <div class="col-xs-12">
+          <input type="email" class="form-control input-lg" id="inputEmail" placeholder="Type your Email" required>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-xs-12 text-center">
+          <button type="submit" class="btn btn-primary btn-lg">Suscribe</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Panel multimedia -->
+<div class="container">
+  <div class="row data-media">
+    <div class="col-xs-12">
+      <div class="title text-center">
+        <h1>Make It Real</h1>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+          <embed class="embed-responsive-item" src="https://www.youtube.com/embed/ynNh7709JWE">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="main-footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="text-center" style="margin: 20px 0;">Blog made by Diego Armando Cardenas. <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
